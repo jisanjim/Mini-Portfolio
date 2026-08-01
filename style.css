@@ -1,0 +1,135 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 600px;
+    margin-bottom: 15px;
+}
+p{
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+img{
+    max-width: 100%;
+}
+.about{
+    background: #000;
+    min-height: 585px;
+}
+.container{
+    display: flex;
+        padding-top: 60px;
+        padding-right: 60px;
+        padding-left: 60px;
+}
+.about-image{
+    flex-basis: 40%;
+    margin: ;
+    padding: 0;
+}
+.about-me{
+    flex-basis: 60%;
+    color: #fff;
+    padding-top: 40px;
+}
+#pic{
+    border-radius: 5%;
+    border: 1px solid #00ffff;
+    box-shadow: 0 0 15px rgba(1, 255, 255, 0.5);
+}
+h2{
+    font-size: 41px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    margin-bottom:40px;
+}
+ul{
+    margin-bottom: 50px;
+}
+.about-me ul{
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.about-me ul li{
+    display: inline-block;
+    width: fit-content;
+    padding: 10px 20px;
+    border: 1px solid #00ffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,255,255,.5);
+}
+p{
+    padding-right: 40px;
+    line-height: 1.8em;
+    padding-bottom: 20px;
+}
+span{
+    color: #00ffff;
+}
+
+@media (max-width:600px) {
+
+    .about{
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .about-image{
+        order: -1;
+    }
+    .about-image img{
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0;
+        padding: 0;
+
+    }
+    .about-me ul{
+        text-align: center;
+    }
+    .about-me ul li{
+    padding: 10px 20px;
+    border: 1px solid #00ffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,255,255,.5);
+    transition: .3s;
+}
+    
+    ul li{
+        padding: 0;
+        margin: 0;
+        position: relative;
+        top: 20px;
+    }
+    .about-me h2{
+        margin-bottom: 10px;
+        font-size: 45px;
+        text-align: center;
+
+    }
+    .about-me span{
+        color: #00ffff;
+    }
+
+
+}
