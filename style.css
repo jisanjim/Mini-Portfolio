@@ -133,6 +133,9 @@ span{
     .about-me span{
         color: #00ffff;
     }
+    h2{
+        text-align: left;
+    }
 
 
 }
