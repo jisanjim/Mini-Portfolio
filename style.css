@@ -106,6 +106,9 @@ span{
     }
     .about-me ul{
         text-align: center;
+        justify-content: center;
+
+    }
     }
     .about-me ul li{
     padding: 10px 20px;
